@@ -15,20 +15,27 @@ class SpaceController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.scrollView.canCancelContentTouches = true
-        self.scrollView.delaysContentTouches = true
+//        self.scrollView.canCancelContentTouches = true
+//        self.scrollView.delaysContentTouches = true
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        if (PAGE_ISOPEN) {
+            scrollView.contentOffset = SPACE_SCROLLVIEW_POS
+            PAGE_ISOPEN = false
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func openPage(_ sender: Any) {
-        print("Ciao")
-        let mainStoryboard = UIStoryboard(name: "Page", bundle: Bundle.main)
-        let pageController = mainStoryboard.instantiateViewController(withIdentifier: "PageController")
+        SPACE_SCROLLVIEW_POS = scrollView.contentOffset
+        let pageStoryboard = UIStoryboard(name: "Page", bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: "PageController")
         //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
         //        pageController.modalTransitionStyle = modalStyle
         self.present(pageController, animated: true, completion: nil)

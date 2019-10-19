@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 let actualScreenBounds = UIScreen.main.bounds
-var openingPageBFromA = false
-var openingPageBFromTutorial = false
-var openingPageBAfterAdding = false
+var PLANET_NUM = 0
+var SPACE_SCROLLVIEW_POS = CGPoint()
+var PAGE_ISOPEN = false
 
 @IBDesignable class TopAlignedLabel: UILabel {
     

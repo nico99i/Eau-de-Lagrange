@@ -37,7 +37,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="icz-DM-5Wr"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Rubik-Bold" family="Rubik" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Rubik-Bold" family="Rubik" pointSize="17"/>
                                 <state key="normal" title="Dream your journey">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -70,12 +70,12 @@
         <!--Space Controller-->
         <scene sceneID="bYu-lC-Ghh">
             <objects>
-                <viewController id="bJc-XS-mXh" customClass="SpaceController" customModule="Spaceway" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SpaceController" id="bJc-XS-mXh" customClass="SpaceController" customModule="Spaceway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mt2-nk-AF5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdG-Hk-i8G">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdG-Hk-i8G">
                                 <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjF-nD-8kq">
