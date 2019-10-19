@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="140" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Space Controller-->
         <scene sceneID="bYu-lC-Ghh">
             <objects>
-                <viewController id="bJc-XS-mXh" sceneMemberID="viewController">
+                <viewController id="bJc-XS-mXh" customClass="SpaceController" customModule="Spaceway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mt2-nk-AF5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,6 +96,9 @@
                                                     <constraint firstAttribute="height" constant="60" id="TgG-WG-85k"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="openPage:" destination="bJc-XS-mXh" eventType="touchUpInside" id="QZb-zO-i8Y"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,16 +119,41 @@
                                     <constraint firstItem="fjF-nD-8kq" firstAttribute="leading" secondItem="cdG-Hk-i8G" secondAttribute="leading" constant="-1067" id="cJe-D0-CRB"/>
                                 </constraints>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-kS-lFC">
+                                <rect key="frame" x="195" y="587" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="s7n-4m-b9l"/>
+                                    <constraint firstAttribute="height" constant="60" id="ybP-Ga-HAL"/>
+                                </constraints>
+                                <state key="normal" title="Dettagli"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcC-Ot-R3N">
+                                <rect key="frame" x="295" y="587" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="TYY-QL-PJL"/>
+                                    <constraint firstAttribute="height" constant="60" id="c2q-ba-njZ"/>
+                                </constraints>
+                                <state key="normal" title="Servizi"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="TVT-oe-UNz" firstAttribute="bottom" secondItem="RI1-kS-lFC" secondAttribute="bottom" constant="20" id="YZs-yP-coB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cdG-Hk-i8G" secondAttribute="trailing" constant="-20" id="exD-aj-p9k"/>
+                            <constraint firstItem="TVT-oe-UNz" firstAttribute="trailing" secondItem="RI1-kS-lFC" secondAttribute="trailing" constant="120" id="gEP-KV-ZPQ"/>
+                            <constraint firstItem="TVT-oe-UNz" firstAttribute="bottom" secondItem="dcC-Ot-R3N" secondAttribute="bottom" constant="20" id="gN7-ll-deU"/>
                             <constraint firstItem="cdG-Hk-i8G" firstAttribute="leading" secondItem="mt2-nk-AF5" secondAttribute="leadingMargin" constant="-20" id="n5e-ZI-d3M"/>
+                            <constraint firstItem="TVT-oe-UNz" firstAttribute="trailing" secondItem="dcC-Ot-R3N" secondAttribute="trailing" constant="20" id="pFL-Ol-Vzi"/>
                             <constraint firstAttribute="bottomMargin" secondItem="cdG-Hk-i8G" secondAttribute="bottom" id="wVi-MC-kYT"/>
                             <constraint firstItem="cdG-Hk-i8G" firstAttribute="top" secondItem="mt2-nk-AF5" secondAttribute="topMargin" constant="-20" id="y6E-AP-GHs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TVT-oe-UNz"/>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="cdG-Hk-i8G" id="LSk-Fc-jUe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9X-Fk-u6X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

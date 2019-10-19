@@ -11,6 +11,10 @@ import UIKit
 class PageController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var topImage: UIImageView!
+    @IBOutlet weak var turismButton: UIButton!
+    @IBOutlet weak var businessButton: UIButton!
+    @IBOutlet weak var turismWidth: NSLayoutConstraint!
+    @IBOutlet weak var businessWidth: NSLayoutConstraint!
     var contentView = UIView()
     var scrollView = UIScrollView()
     

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Page Controller-->
+        <!--PageController-->
         <scene sceneID="snp-h4-XEL">
             <objects>
-                <viewController id="Jac-q8-w6E" customClass="PageController" customModule="Spaceway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PageController" title="PageController" id="Jac-q8-w6E" customClass="PageController" customModule="Spaceway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wTs-uW-LFy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,17 +25,42 @@
                                     <constraint firstAttribute="height" constant="200" id="lnx-3j-GP2"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGX-tC-7k5">
+                                <rect key="frame" x="0.0" y="200" width="176" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="KCL-uN-kXq"/>
+                                    <constraint firstAttribute="height" constant="60" id="VHp-TB-FPc"/>
+                                </constraints>
+                                <state key="normal" title="Turism"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSq-Hm-7bA">
+                                <rect key="frame" x="184" y="200" width="191" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="2Su-vv-7Wk"/>
+                                    <constraint firstAttribute="height" constant="60" id="lGG-wc-zyT"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="xQX-Zt-hAt"/>
+                                </constraints>
+                                <state key="normal" title="Business"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="uSq-Hm-7bA" firstAttribute="trailing" secondItem="vzn-5F-pcu" secondAttribute="trailing" id="EEX-2q-oDk"/>
                             <constraint firstItem="EfA-9U-KFX" firstAttribute="trailing" secondItem="vzn-5F-pcu" secondAttribute="trailing" id="Mc0-1C-Kze"/>
                             <constraint firstItem="EfA-9U-KFX" firstAttribute="top" secondItem="wTs-uW-LFy" secondAttribute="top" id="RAe-Bo-RBK"/>
                             <constraint firstItem="EfA-9U-KFX" firstAttribute="leading" secondItem="vzn-5F-pcu" secondAttribute="leading" id="elZ-yD-Eoy"/>
+                            <constraint firstItem="jGX-tC-7k5" firstAttribute="top" secondItem="EfA-9U-KFX" secondAttribute="bottom" id="iEH-7I-i5w"/>
+                            <constraint firstItem="uSq-Hm-7bA" firstAttribute="top" secondItem="EfA-9U-KFX" secondAttribute="bottom" id="wFf-Ky-6mb"/>
+                            <constraint firstItem="jGX-tC-7k5" firstAttribute="leading" secondItem="vzn-5F-pcu" secondAttribute="leading" id="xUZ-B3-LXE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vzn-5F-pcu"/>
                     </view>
                     <connections>
+                        <outlet property="businessButton" destination="uSq-Hm-7bA" id="eX9-NG-Eau"/>
+                        <outlet property="businessWidth" destination="2Su-vv-7Wk" id="qNU-Ni-T2H"/>
                         <outlet property="topImage" destination="EfA-9U-KFX" id="Znh-9i-Nvy"/>
+                        <outlet property="turismButton" destination="jGX-tC-7k5" id="2zS-Zu-1u3"/>
+                        <outlet property="turismWidth" destination="KCL-uN-kXq" id="HtR-3d-xLF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T27-aX-84P" userLabel="First Responder" sceneMemberID="firstResponder"/>

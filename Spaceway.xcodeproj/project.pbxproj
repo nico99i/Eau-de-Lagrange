@@ -17,6 +17,7 @@
 		E23AAFF4235B557D00D86D06 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AAFF3235B557D00D86D06 /* GlobalVariables.swift */; };
 		E23AAFFE235B6ED000D86D06 /* Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23AAFFD235B6ED000D86D06 /* Page.storyboard */; };
 		E23AB000235B6EF400D86D06 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AAFFF235B6EF400D86D06 /* PageController.swift */; };
+		E23AB002235B8CFE00D86D06 /* SpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AB001235B8CFE00D86D06 /* SpaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E23AAFF3235B557D00D86D06 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		E23AAFFD235B6ED000D86D06 /* Page.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Page.storyboard; sourceTree = "<group>"; };
 		E23AAFFF235B6EF400D86D06 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		E23AB001235B8CFE00D86D06 /* SpaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E23AAFDC235B397C00D86D06 /* AppDelegate.swift */,
 				E23AAFDE235B397D00D86D06 /* ViewController.swift */,
 				E23AAFFF235B6EF400D86D06 /* PageController.swift */,
+				E23AB001235B8CFE00D86D06 /* SpaceController.swift */,
 				E23AAFFD235B6ED000D86D06 /* Page.storyboard */,
 				E23AAFE0235B397D00D86D06 /* Main.storyboard */,
 				E23AAFE3235B397D00D86D06 /* Assets.xcassets */,
@@ -166,6 +169,7 @@
 				E23AB000235B6EF400D86D06 /* PageController.swift in Sources */,
 				E23AAFF0235B550800D86D06 /* AnimationHelper.swift in Sources */,
 				E23AAFF4235B557D00D86D06 /* GlobalVariables.swift in Sources */,
+				E23AB002235B8CFE00D86D06 /* SpaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
