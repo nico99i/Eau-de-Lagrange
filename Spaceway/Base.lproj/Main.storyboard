@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="aRY-zQ-rCM">
-                                <rect key="frame" x="37.5" y="50" width="300" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="aRY-zQ-rCM">
+                                <rect key="frame" x="37.5" y="30" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="GbD-iT-TF4"/>
                                     <constraint firstAttribute="width" constant="300" id="nSg-CU-wKh"/>
@@ -72,11 +69,11 @@
             <objects>
                 <viewController storyboardIdentifier="SpaceController" id="bJc-XS-mXh" customClass="SpaceController" customModule="Spaceway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mt2-nk-AF5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdG-Hk-i8G">
-                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <rect key="frame" x="-4" y="-20" width="383" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjF-nD-8kq">
                                         <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
@@ -94,7 +91,6 @@
                                                     <constraint firstAttribute="height" constant="200" id="Mhe-9A-Cvs"/>
                                                     <constraint firstAttribute="width" constant="400" id="usS-y7-7gJ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="openTransneptunian:" destination="bJc-XS-mXh" eventType="touchUpInside" id="Vvx-p7-Jve"/>
                                                 </connections>
@@ -145,7 +141,7 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-kS-lFC">
-                                <rect key="frame" x="185" y="577" width="70" height="70"/>
+                                <rect key="frame" x="185" y="557" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="s7n-4m-b9l"/>
                                     <constraint firstAttribute="height" constant="70" id="ybP-Ga-HAL"/>
@@ -156,7 +152,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcC-Ot-R3N">
-                                <rect key="frame" x="285" y="577" width="70" height="70"/>
+                                <rect key="frame" x="285" y="557" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="TYY-QL-PJL"/>
                                     <constraint firstAttribute="height" constant="70" id="c2q-ba-njZ"/>
@@ -196,7 +192,7 @@
         <image name="Marte" width="78" height="76"/>
         <image name="Saturno" width="174" height="174"/>
         <image name="Space5" width="2800" height="2800"/>
-        <image name="logo" width="1080" height="1080"/>
+        <image name="logo-1" width="1080" height="1080"/>
         <image name="rocket" width="512" height="512"/>
         <image name="waiter" width="512" height="512"/>
     </resources>
