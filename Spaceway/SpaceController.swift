@@ -34,8 +34,8 @@ class SpaceController: UIViewController {
     
     @IBAction func openPage(_ sender: Any) {
         SPACE_SCROLLVIEW_POS = scrollView.contentOffset
-        let pageStoryboard = UIStoryboard(name: "Page", bundle: Bundle.main)
-        let pageController = pageStoryboard.instantiateViewController(withIdentifier: "PageController")
+        let pageStoryboard = UIStoryboard(name: "Pages", bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: "Page0Controller")
         //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
         //        pageController.modalTransitionStyle = modalStyle
         self.present(pageController, animated: true, completion: nil)

@@ -30,6 +30,19 @@
 		E23AB019235B988400D86D06 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23AB00D235B985C00D86D06 /* Rubik-Medium.ttf */; };
 		E23AB01A235B988400D86D06 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23AB006235B985A00D86D06 /* Rubik-MediumItalic.ttf */; };
 		E23AB01B235B988400D86D06 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23AB009235B985B00D86D06 /* Rubik-Regular.ttf */; };
+		E2D55A21235C43B300155AEA /* Page0Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A20235C43B300155AEA /* Page0Controller.swift */; };
+		E2D55A23235C43C200155AEA /* Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D55A22235C43C200155AEA /* Pages.storyboard */; };
+		E2D55A25235C499D00155AEA /* Page1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A24235C499D00155AEA /* Page1Controller.swift */; };
+		E2D55A27235C49BF00155AEA /* Page2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A26235C49BF00155AEA /* Page2Controller.swift */; };
+		E2D55A29235C4A1000155AEA /* Page3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A28235C4A1000155AEA /* Page3Controller.swift */; };
+		E2D55A2C235C4E9200155AEA /* Transneptunian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D55A2B235C4E9200155AEA /* Transneptunian.storyboard */; };
+		E2D55A2E235C4EB600155AEA /* TransNeptunianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A2D235C4EB600155AEA /* TransNeptunianController.swift */; };
+		E2D55A30235C4EFE00155AEA /* PlutoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A2F235C4EFE00155AEA /* PlutoController.swift */; };
+		E2D55A32235C4F0B00155AEA /* RocceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A31235C4F0B00155AEA /* RocceController.swift */; };
+		E2D55A34235C4F1E00155AEA /* PianetaXController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A33235C4F1E00155AEA /* PianetaXController.swift */; };
+		E2D55A39235C51A200155AEA /* Buttons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D55A38235C51A200155AEA /* Buttons.storyboard */; };
+		E2D55A3B235C51B200155AEA /* ServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A3A235C51B200155AEA /* ServiceController.swift */; };
+		E2D55A3D235C51CA00155AEA /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A3C235C51CA00155AEA /* DetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +71,19 @@
 		E23AB00E235B985C00D86D06 /* Jellee-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jellee-Roman.ttf"; sourceTree = "<group>"; };
 		E23AB00F235B985C00D86D06 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		E23AB010235B985D00D86D06 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E2D55A20235C43B300155AEA /* Page0Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page0Controller.swift; sourceTree = "<group>"; };
+		E2D55A22235C43C200155AEA /* Pages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pages.storyboard; sourceTree = "<group>"; };
+		E2D55A24235C499D00155AEA /* Page1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1Controller.swift; sourceTree = "<group>"; };
+		E2D55A26235C49BF00155AEA /* Page2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2Controller.swift; sourceTree = "<group>"; };
+		E2D55A28235C4A1000155AEA /* Page3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3Controller.swift; sourceTree = "<group>"; };
+		E2D55A2B235C4E9200155AEA /* Transneptunian.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transneptunian.storyboard; sourceTree = "<group>"; };
+		E2D55A2D235C4EB600155AEA /* TransNeptunianController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransNeptunianController.swift; sourceTree = "<group>"; };
+		E2D55A2F235C4EFE00155AEA /* PlutoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoController.swift; sourceTree = "<group>"; };
+		E2D55A31235C4F0B00155AEA /* RocceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocceController.swift; sourceTree = "<group>"; };
+		E2D55A33235C4F1E00155AEA /* PianetaXController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianetaXController.swift; sourceTree = "<group>"; };
+		E2D55A38235C51A200155AEA /* Buttons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Buttons.storyboard; sourceTree = "<group>"; };
+		E2D55A3A235C51B200155AEA /* ServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceController.swift; sourceTree = "<group>"; };
+		E2D55A3C235C51CA00155AEA /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +116,9 @@
 		E23AAFDB235B397C00D86D06 /* Spaceway */ = {
 			isa = PBXGroup;
 			children = (
+				E2D55A35235C518000155AEA /* tastisotto */,
+				E2D55A2A235C4E3100155AEA /* transneptunian */,
+				E2D55A1F235C438700155AEA /* Pages */,
 				E23AAFDC235B397C00D86D06 /* AppDelegate.swift */,
 				E23AAFDE235B397D00D86D06 /* ViewController.swift */,
 				E23AAFFF235B6EF400D86D06 /* PageController.swift */,
@@ -132,6 +161,40 @@
 				E23AB009235B985B00D86D06 /* Rubik-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E2D55A1F235C438700155AEA /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E2D55A20235C43B300155AEA /* Page0Controller.swift */,
+				E2D55A24235C499D00155AEA /* Page1Controller.swift */,
+				E2D55A26235C49BF00155AEA /* Page2Controller.swift */,
+				E2D55A28235C4A1000155AEA /* Page3Controller.swift */,
+				E2D55A22235C43C200155AEA /* Pages.storyboard */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E2D55A2A235C4E3100155AEA /* transneptunian */ = {
+			isa = PBXGroup;
+			children = (
+				E2D55A2B235C4E9200155AEA /* Transneptunian.storyboard */,
+				E2D55A2D235C4EB600155AEA /* TransNeptunianController.swift */,
+				E2D55A2F235C4EFE00155AEA /* PlutoController.swift */,
+				E2D55A31235C4F0B00155AEA /* RocceController.swift */,
+				E2D55A33235C4F1E00155AEA /* PianetaXController.swift */,
+			);
+			path = transneptunian;
+			sourceTree = "<group>";
+		};
+		E2D55A35235C518000155AEA /* tastisotto */ = {
+			isa = PBXGroup;
+			children = (
+				E2D55A38235C51A200155AEA /* Buttons.storyboard */,
+				E2D55A3A235C51B200155AEA /* ServiceController.swift */,
+				E2D55A3C235C51CA00155AEA /* DetailsController.swift */,
+			);
+			path = tastisotto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +260,12 @@
 				E23AB012235B988400D86D06 /* Rubik-Black.ttf in Resources */,
 				E23AB013235B988400D86D06 /* Rubik-BlackItalic.ttf in Resources */,
 				E23AB014235B988400D86D06 /* Rubik-Bold.ttf in Resources */,
+				E2D55A2C235C4E9200155AEA /* Transneptunian.storyboard in Resources */,
 				E23AB015235B988400D86D06 /* Rubik-BoldItalic.ttf in Resources */,
+				E2D55A39235C51A200155AEA /* Buttons.storyboard in Resources */,
 				E23AB016235B988400D86D06 /* Rubik-Italic.ttf in Resources */,
 				E23AB017235B988400D86D06 /* Rubik-Light.ttf in Resources */,
+				E2D55A23235C43C200155AEA /* Pages.storyboard in Resources */,
 				E23AB018235B988400D86D06 /* Rubik-LightItalic.ttf in Resources */,
 				E23AB019235B988400D86D06 /* Rubik-Medium.ttf in Resources */,
 				E23AB01A235B988400D86D06 /* Rubik-MediumItalic.ttf in Resources */,
@@ -218,14 +284,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D55A29235C4A1000155AEA /* Page3Controller.swift in Sources */,
+				E2D55A34235C4F1E00155AEA /* PianetaXController.swift in Sources */,
+				E2D55A2E235C4EB600155AEA /* TransNeptunianController.swift in Sources */,
+				E2D55A30235C4EFE00155AEA /* PlutoController.swift in Sources */,
 				E23AAFDF235B397D00D86D06 /* ViewController.swift in Sources */,
+				E2D55A21235C43B300155AEA /* Page0Controller.swift in Sources */,
 				E23AAFDD235B397C00D86D06 /* AppDelegate.swift in Sources */,
 				E23AAFF2235B556600D86D06 /* Gif.swift in Sources */,
 				E23AB000235B6EF400D86D06 /* PageController.swift in Sources */,
 				E23AAFF0235B550800D86D06 /* AnimationHelper.swift in Sources */,
+				E2D55A3D235C51CA00155AEA /* DetailsController.swift in Sources */,
+				E2D55A25235C499D00155AEA /* Page1Controller.swift in Sources */,
 				E23AAFF4235B557D00D86D06 /* GlobalVariables.swift in Sources */,
+				E2D55A3B235C51B200155AEA /* ServiceController.swift in Sources */,
 				E23AB002235B8CFE00D86D06 /* SpaceController.swift in Sources */,
 				E23AB004235B975F00D86D06 /* Contents.swift in Sources */,
+				E2D55A27235C49BF00155AEA /* Page2Controller.swift in Sources */,
+				E2D55A32235C4F0B00155AEA /* RocceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

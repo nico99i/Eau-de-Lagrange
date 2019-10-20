@@ -35,37 +35,37 @@ class PageController: UIViewController, UIScrollViewDelegate {
         topImage.image = UIImage(named: "\(PLANET_NUM)")
         
         // Load contents
-        planetTitleLabel.frame = CGRect(x: 0, y: 260, width: actualScreenBounds.width, height: 60)
-        planetTitleLabel.font = UIFont(name: "Rubik-Bold", size: 22)
-        planetTitleLabel.textAlignment = .center
-        planetTitleLabel.text = PLANET_TITLES[PLANET_NUM]
-        print(PLANET_TITLES[PLANET_NUM])
-        contentView.addSubview(planetTitleLabel)
-        
-        subtitleLabel.frame = CGRect(x: 0, y: 330, width: actualScreenBounds.width, height: 60)
-        subtitleLabel.font = UIFont(name: "Rubik-Bold", size: 18)
-        subtitleLabel.text = SUBTITLES[PLANET_NUM]
-        contentView.addSubview(subtitleLabel)
-        
-        descriptionTextView.frame = CGRect(x: 0, y: 350, width: actualScreenBounds.width, height: 1000)
-        descriptionTextView.font = UIFont(name: "Rubik-Regular", size: 17)
-        descriptionTextView.text = DESCRIPTIONS[PLANET_NUM]
-        descriptionTextView.textColor = UIColor.black
-        descriptionTextView.translatesAutoresizingMaskIntoConstraints = true
-//        descriptionTextView.sizeToFit()
-        descriptionTextView.isScrollEnabled = false
-        contentView.addSubview(descriptionTextView)
-        
-//        let contentViewHeight = planetTitleLabel.frame.size.height + 10 + subtitleLabel.frame.size.height + 20 + descriptionTextView.contentSize.height + 30
-        contentView = UIView(frame: CGRect(x: 0, y: 0, width: actualScreenBounds.width, height: 2000))
-        
-        scrollView = UIScrollView(frame: CGRect(x: 0, y: 260, width: actualScreenBounds.width, height: actualScreenBounds.height - 260))
-        scrollView.bounds.size = CGSize(width: actualScreenBounds.width, height: scrollView.frame.size.height)
-        scrollView.contentSize = CGSize(width: actualScreenBounds.width, height: contentView.frame.height)
-        scrollView.contentOffset.y = contentView.frame.height - actualScreenBounds.height
-        scrollView.delegate = self
-        scrollView.addSubview(contentView)
-        self.view.addSubview(scrollView)
+//        planetTitleLabel.frame = CGRect(x: 0, y: 260, width: actualScreenBounds.width, height: 60)
+//        planetTitleLabel.font = UIFont(name: "Rubik-Bold", size: 22)
+//        planetTitleLabel.textAlignment = .center
+//        planetTitleLabel.text = PLANET_TITLES[PLANET_NUM]
+//        print(PLANET_TITLES[PLANET_NUM])
+//        contentView.addSubview(planetTitleLabel)
+//        
+//        subtitleLabel.frame = CGRect(x: 0, y: 330, width: actualScreenBounds.width, height: 60)
+//        subtitleLabel.font = UIFont(name: "Rubik-Bold", size: 18)
+//        subtitleLabel.text = SUBTITLES[PLANET_NUM]
+//        contentView.addSubview(subtitleLabel)
+//        
+//        descriptionTextView.frame = CGRect(x: 0, y: 350, width: actualScreenBounds.width, height: 1000)
+//        descriptionTextView.font = UIFont(name: "Rubik-Regular", size: 17)
+//        descriptionTextView.text = DESCRIPTIONS[PLANET_NUM]
+//        descriptionTextView.textColor = UIColor.black
+//        descriptionTextView.translatesAutoresizingMaskIntoConstraints = true
+////        descriptionTextView.sizeToFit()
+//        descriptionTextView.isScrollEnabled = false
+//        contentView.addSubview(descriptionTextView)
+//        
+////        let contentViewHeight = planetTitleLabel.frame.size.height + 10 + subtitleLabel.frame.size.height + 20 + descriptionTextView.contentSize.height + 30
+//        contentView = UIView(frame: CGRect(x: 0, y: 0, width: actualScreenBounds.width, height: 2000))
+//        
+//        scrollView = UIScrollView(frame: CGRect(x: 0, y: 260, width: actualScreenBounds.width, height: actualScreenBounds.height - 260))
+//        scrollView.bounds.size = CGSize(width: actualScreenBounds.width, height: scrollView.frame.size.height)
+//        scrollView.contentSize = CGSize(width: actualScreenBounds.width, height: contentView.frame.height)
+//        scrollView.contentOffset.y = contentView.frame.height - actualScreenBounds.height
+//        scrollView.delegate = self
+//        scrollView.addSubview(contentView)
+//        self.view.addSubview(scrollView)
         
     }
 
