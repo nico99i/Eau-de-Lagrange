@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.02498982660472393" green="0.093133740127086639" blue="0.13240113854408264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0051505536750305145" green="0.090773831930587273" blue="0.13240113854408264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mar-cV-ovt" secondAttribute="bottom" constant="147" id="BKZ-jg-f6r"/>
                             <constraint firstItem="aRY-zQ-rCM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BQG-U9-J3E"/>
@@ -99,14 +99,14 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMJ-7x-Kpf" userLabel="Marte">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMJ-7x-Kpf" userLabel="Marte">
                                                 <rect key="frame" x="1465" y="1661" width="39" height="38"/>
                                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="38" id="RRl-MR-rTo"/>
                                                     <constraint firstAttribute="width" constant="39" id="pSh-Df-ELg"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="vsdvds" image="Marte"/>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Space5" translatesAutoresizingMaskIntoConstraints="NO" id="LbW-hO-P0I">
                                                 <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
@@ -153,11 +153,11 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-kS-lFC">
-                                <rect key="frame" x="195" y="587" width="60" height="60"/>
+                                <rect key="frame" x="185" y="577" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="s7n-4m-b9l"/>
-                                    <constraint firstAttribute="height" constant="60" id="ybP-Ga-HAL"/>
+                                    <constraint firstAttribute="width" constant="70" id="s7n-4m-b9l"/>
+                                    <constraint firstAttribute="height" constant="70" id="ybP-Ga-HAL"/>
                                 </constraints>
                                 <state key="normal" title="Dettagli"/>
                                 <connections>
@@ -165,11 +165,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcC-Ot-R3N">
-                                <rect key="frame" x="295" y="587" width="60" height="60"/>
+                                <rect key="frame" x="285" y="577" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="TYY-QL-PJL"/>
-                                    <constraint firstAttribute="height" constant="60" id="c2q-ba-njZ"/>
+                                    <constraint firstAttribute="width" constant="70" id="TYY-QL-PJL"/>
+                                    <constraint firstAttribute="height" constant="70" id="c2q-ba-njZ"/>
                                 </constraints>
                                 <state key="normal" title="Servizi"/>
                                 <connections>
@@ -201,6 +201,7 @@
     </scenes>
     <resources>
         <image name="Logo" width="1080" height="1080"/>
+        <image name="Marte" width="78" height="76"/>
         <image name="Space5" width="2800" height="2800"/>
     </resources>
 </document>
