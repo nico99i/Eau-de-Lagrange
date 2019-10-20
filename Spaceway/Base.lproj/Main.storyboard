@@ -81,22 +81,31 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjF-nD-8kq">
                                         <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-Po-RRZ" userLabel="Transneptunian">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-Po-RRZ" userLabel="Transneptunian">
                                                 <rect key="frame" x="1565" y="290" width="400" height="200"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="Mhe-9A-Cvs"/>
+                                                    <constraint firstAttribute="width" constant="400" id="usS-y7-7gJ"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0g-qz-WBn" userLabel="Saturno">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0g-qz-WBn" userLabel="Saturno">
                                                 <rect key="frame" x="1735" y="851" width="87" height="87"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="87" id="UYt-G3-WB4"/>
+                                                    <constraint firstAttribute="height" constant="87" id="h1u-1q-L70"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMJ-7x-Kpf" userLabel="Marte">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMJ-7x-Kpf" userLabel="Marte">
                                                 <rect key="frame" x="1465" y="1661" width="39" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="38" id="RRl-MR-rTo"/>
+                                                    <constraint firstAttribute="width" constant="39" id="pSh-Df-ELg"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Space5" translatesAutoresizingMaskIntoConstraints="NO" id="LbW-hO-P0I">
@@ -121,9 +130,15 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="k0g-qz-WBn" firstAttribute="leading" secondItem="fjF-nD-8kq" secondAttribute="leading" constant="1735" id="3qD-tG-wqa"/>
+                                            <constraint firstItem="Pea-Po-RRZ" firstAttribute="leading" secondItem="fjF-nD-8kq" secondAttribute="leading" constant="1565" id="6vf-qr-1hO"/>
                                             <constraint firstAttribute="height" constant="2800" id="88k-tP-3cv"/>
+                                            <constraint firstItem="Pea-Po-RRZ" firstAttribute="top" secondItem="fjF-nD-8kq" secondAttribute="top" constant="290" id="BhO-Op-Ak4"/>
+                                            <constraint firstItem="xMJ-7x-Kpf" firstAttribute="top" secondItem="fjF-nD-8kq" secondAttribute="top" constant="1661" id="EmB-T6-ayM"/>
                                             <constraint firstItem="fGv-NF-1HW" firstAttribute="top" secondItem="fjF-nD-8kq" secondAttribute="top" constant="1325" id="Lp5-XT-82A"/>
+                                            <constraint firstItem="k0g-qz-WBn" firstAttribute="top" secondItem="Pea-Po-RRZ" secondAttribute="bottom" constant="361" id="Oct-2P-dR8"/>
                                             <constraint firstItem="LbW-hO-P0I" firstAttribute="leading" secondItem="fjF-nD-8kq" secondAttribute="leading" id="duh-hc-1Ye"/>
+                                            <constraint firstItem="xMJ-7x-Kpf" firstAttribute="leading" secondItem="fjF-nD-8kq" secondAttribute="leading" constant="1465" id="kFX-ZU-uPn"/>
                                             <constraint firstItem="LbW-hO-P0I" firstAttribute="top" secondItem="fjF-nD-8kq" secondAttribute="top" id="mRy-pA-WJo"/>
                                             <constraint firstItem="fGv-NF-1HW" firstAttribute="leading" secondItem="fjF-nD-8kq" secondAttribute="leading" constant="1326" id="oQe-ft-3Nb"/>
                                             <constraint firstAttribute="width" constant="2800" id="tTY-OW-Prb"/>
