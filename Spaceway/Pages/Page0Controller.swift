@@ -12,7 +12,7 @@ class Page0Controller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        PAGE_ISOPEN = true
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +21,14 @@ class Page0Controller: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func close(_ sender: Any) {
+        let pageStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: "SpaceController")
+        //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        //        pageController.modalTransitionStyle = modalStyle
+        self.present(pageController, animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

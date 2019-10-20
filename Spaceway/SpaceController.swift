@@ -15,6 +15,7 @@ class SpaceController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollView.contentOffset = CGPoint(x: 1067, y: 1067)
 //        self.scrollView.canCancelContentTouches = true
 //        self.scrollView.delaysContentTouches = true
         // Do any additional setup after loading the view.

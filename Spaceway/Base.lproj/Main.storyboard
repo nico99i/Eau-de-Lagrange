@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aRY-zQ-rCM">
-                                <rect key="frame" x="37" y="50" width="300" height="300"/>
+                                <rect key="frame" x="37.5" y="30" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="GbD-iT-TF4"/>
                                     <constraint firstAttribute="width" constant="300" id="nSg-CU-wKh"/>
@@ -48,7 +45,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="bJc-XS-mXh" kind="showDetail" action="showViewController:sender:" id="rR1-XM-4SC"/>
+                                    <segue destination="bJc-XS-mXh" kind="showDetail" id="rR1-XM-4SC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -72,14 +69,14 @@
             <objects>
                 <viewController storyboardIdentifier="SpaceController" id="bJc-XS-mXh" customClass="SpaceController" customModule="Spaceway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mt2-nk-AF5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdG-Hk-i8G">
-                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <rect key="frame" x="-4" y="-20" width="383" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjF-nD-8kq">
-                                        <rect key="frame" x="-1067" y="-1067" width="2800" height="2800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Space" translatesAutoresizingMaskIntoConstraints="NO" id="LbW-hO-P0I">
                                                 <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
@@ -113,14 +110,14 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="fjF-nD-8kq" firstAttribute="top" secondItem="cdG-Hk-i8G" secondAttribute="top" constant="-1067" id="6Up-eX-NNq"/>
+                                    <constraint firstItem="fjF-nD-8kq" firstAttribute="top" secondItem="cdG-Hk-i8G" secondAttribute="top" id="6Up-eX-NNq"/>
                                     <constraint firstAttribute="bottom" secondItem="fjF-nD-8kq" secondAttribute="bottom" constant="8" id="Ftw-4O-5Cr"/>
                                     <constraint firstAttribute="trailing" secondItem="fjF-nD-8kq" secondAttribute="trailing" constant="8" id="KjL-aE-bJE"/>
-                                    <constraint firstItem="fjF-nD-8kq" firstAttribute="leading" secondItem="cdG-Hk-i8G" secondAttribute="leading" constant="-1067" id="cJe-D0-CRB"/>
+                                    <constraint firstItem="fjF-nD-8kq" firstAttribute="leading" secondItem="cdG-Hk-i8G" secondAttribute="leading" id="cJe-D0-CRB"/>
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-kS-lFC">
-                                <rect key="frame" x="195" y="587" width="60" height="60"/>
+                                <rect key="frame" x="195" y="567" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="s7n-4m-b9l"/>
@@ -129,7 +126,7 @@
                                 <state key="normal" title="Dettagli"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcC-Ot-R3N">
-                                <rect key="frame" x="295" y="587" width="60" height="60"/>
+                                <rect key="frame" x="295" y="567" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="TYY-QL-PJL"/>
