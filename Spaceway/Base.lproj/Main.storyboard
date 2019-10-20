@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,7 +25,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aRY-zQ-rCM">
-                                <rect key="frame" x="37.5" y="30" width="300" height="300"/>
+                                <rect key="frame" x="37.5" y="50" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="GbD-iT-TF4"/>
                                     <constraint firstAttribute="width" constant="300" id="nSg-CU-wKh"/>
@@ -69,16 +72,34 @@
             <objects>
                 <viewController storyboardIdentifier="SpaceController" id="bJc-XS-mXh" customClass="SpaceController" customModule="Spaceway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mt2-nk-AF5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdG-Hk-i8G">
-                                <rect key="frame" x="-4" y="-20" width="383" height="667"/>
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjF-nD-8kq">
                                         <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Space" translatesAutoresizingMaskIntoConstraints="NO" id="LbW-hO-P0I">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-Po-RRZ" userLabel="Transneptunian">
+                                                <rect key="frame" x="1565" y="290" width="400" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0g-qz-WBn" userLabel="Saturno">
+                                                <rect key="frame" x="1735" y="851" width="87" height="87"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMJ-7x-Kpf" userLabel="Marte">
+                                                <rect key="frame" x="1465" y="1661" width="39" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Space5" translatesAutoresizingMaskIntoConstraints="NO" id="LbW-hO-P0I">
                                                 <rect key="frame" x="0.0" y="0.0" width="2800" height="2800"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="2800" id="7bX-xJ-xAp"/>
@@ -117,22 +138,28 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-kS-lFC">
-                                <rect key="frame" x="195" y="567" width="60" height="60"/>
+                                <rect key="frame" x="195" y="587" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="s7n-4m-b9l"/>
                                     <constraint firstAttribute="height" constant="60" id="ybP-Ga-HAL"/>
                                 </constraints>
                                 <state key="normal" title="Dettagli"/>
+                                <connections>
+                                    <action selector="openService:" destination="bJc-XS-mXh" eventType="touchUpInside" id="Vnu-C7-rf8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcC-Ot-R3N">
-                                <rect key="frame" x="295" y="567" width="60" height="60"/>
+                                <rect key="frame" x="295" y="587" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.46666666670000001" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="TYY-QL-PJL"/>
                                     <constraint firstAttribute="height" constant="60" id="c2q-ba-njZ"/>
                                 </constraints>
                                 <state key="normal" title="Servizi"/>
+                                <connections>
+                                    <action selector="openDetails:" destination="bJc-XS-mXh" eventType="touchUpInside" id="uIE-9Q-gqX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -159,6 +186,6 @@
     </scenes>
     <resources>
         <image name="Logo" width="1080" height="1080"/>
-        <image name="Space" width="2800" height="2800"/>
+        <image name="Space5" width="2800" height="2800"/>
     </resources>
 </document>

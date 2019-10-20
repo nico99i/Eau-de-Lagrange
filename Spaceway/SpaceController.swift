@@ -42,7 +42,24 @@ class SpaceController: UIViewController {
         self.present(pageController, animated: true, completion: nil)
     }
     
+    @IBAction func openService(_ sender: Any) {
+        SPACE_SCROLLVIEW_POS = scrollView.contentOffset
+        let pageStoryboard = UIStoryboard(name: "Buttons", bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: "ServiceController")
+        //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        //        pageController.modalTransitionStyle = modalStyle
+        self.present(pageController, animated: true, completion: nil)
 
+    }
+    
+    @IBAction func openDetails(_ sender: Any) {
+        SPACE_SCROLLVIEW_POS = scrollView.contentOffset
+        let pageStoryboard = UIStoryboard(name: "Buttons", bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: "ServiceController")
+        //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        //        pageController.modalTransitionStyle = modalStyle
+        self.present(pageController, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
