@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +13,7 @@
             <objects>
                 <viewController id="jDB-Tz-9d7" customClass="TransNeptunianController" customModule="Spaceway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4JN-Ij-Hjt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quickerbelt" translatesAutoresizingMaskIntoConstraints="NO" id="RYX-n2-yVl">
@@ -33,7 +31,7 @@
                                 <state key="normal" title="Turism"/>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IZN-cP-7yg">
-                                <rect key="frame" x="0.0" y="260" width="375" height="407"/>
+                                <rect key="frame" x="0.0" y="260" width="375" height="387"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7cf-Qq-eqU">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="970"/>
@@ -72,30 +70,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uda-ET-Bvj">
-                                                <rect key="frame" x="40" y="194" width="364" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="1Qe-Lc-VKi"/>
-                                                    <constraint firstAttribute="width" constant="324" id="Hxt-SG-XQw"/>
-                                                </constraints>
-                                                <string key="text">Haumea: How many sun raises and dawns can you count on an Earth day?
-</string>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J42-gh-gVk">
-                                                <rect key="frame" x="40" y="254" width="300" height="300"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="300" id="Dc5-nn-h1o"/>
-                                                    <constraint firstAttribute="width" constant="300" id="Kiq-Z4-bFd"/>
-                                                </constraints>
-                                                <string key="text">Ultima Thule is one of the most interesting objects you can find in this rich area. It is composed by two flat lobes connected with a neck. It might not seem a piece for a museum but actually this is one of the remnants of the ancient past of our solar system. You can try to walk on it, but will you be able to stay? The gravitational force is a bit tricky in here.
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -107,44 +81,18 @@
                                             <constraint firstItem="FXf-J0-o2i" firstAttribute="leading" secondItem="7cf-Qq-eqU" secondAttribute="leading" id="ghs-ai-xtb"/>
                                             <constraint firstItem="6jO-Lf-Si3" firstAttribute="top" secondItem="FXf-J0-o2i" secondAttribute="bottom" constant="29" id="puO-cX-aVP"/>
                                             <constraint firstItem="6jO-Lf-Si3" firstAttribute="leading" secondItem="7cf-Qq-eqU" secondAttribute="leading" constant="30" id="ubv-gI-pyl"/>
-                                            <constraint firstItem="J42-gh-gVk" firstAttribute="top" secondItem="uda-ET-Bvj" secondAttribute="bottom" id="voH-Mj-m4c"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWl-iK-L7S">
-                                        <rect key="frame" x="158" y="47" width="364" height="60"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="VXu-5c-aBT"/>
-                                            <constraint firstAttribute="width" constant="324" id="adk-7z-tMy"/>
-                                        </constraints>
-                                        <string key="text">Haumea: How many sun raises and dawns can you count on an Earth day?
-</string>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w8w-3E-YJS">
-                                        <rect key="frame" x="158" y="107" width="300" height="300"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="PGi-wF-sCP"/>
-                                            <constraint firstAttribute="width" constant="300" id="l63-N3-t4T"/>
-                                        </constraints>
-                                        <string key="text">Ultima Thule is one of the most interesting objects you can find in this rich area. It is composed by two flat lobes connected with a neck. It might not seem a piece for a museum but actually this is one of the remnants of the ancient past of our solar system. You can try to walk on it, but will you be able to stay? The gravitational force is a bit tricky in here.
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="7cf-Qq-eqU" firstAttribute="top" secondItem="IZN-cP-7yg" secondAttribute="top" id="QdD-E8-5QR"/>
                                     <constraint firstAttribute="bottom" secondItem="7cf-Qq-eqU" secondAttribute="bottom" constant="8" id="bUW-sC-TBH"/>
                                     <constraint firstItem="7cf-Qq-eqU" firstAttribute="leading" secondItem="IZN-cP-7yg" secondAttribute="leading" id="gGA-O2-kZB"/>
-                                    <constraint firstItem="w8w-3E-YJS" firstAttribute="top" secondItem="yWl-iK-L7S" secondAttribute="bottom" id="vl0-ts-KwH"/>
                                     <constraint firstAttribute="trailing" secondItem="7cf-Qq-eqU" secondAttribute="trailing" constant="8" id="xaq-U1-9oq"/>
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xg9-Oz-Xoe">
-                                <rect key="frame" x="313" y="20" width="46" height="30"/>
+                                <rect key="frame" x="313" y="0.0" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="DwR-RW-PhU"/>
                                     <constraint firstAttribute="height" constant="30" id="Phi-FD-r2i"/>
@@ -183,7 +131,7 @@
             <objects>
                 <viewController id="vu7-bS-kyP" customClass="PianetaXController" customModule="Spaceway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gYD-2h-lBu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planetx" translatesAutoresizingMaskIntoConstraints="NO" id="Ots-DK-uuY">
@@ -209,7 +157,7 @@
                                 <state key="normal" title="Turism"/>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1IM-0q-bzP">
-                                <rect key="frame" x="0.0" y="260" width="375" height="407"/>
+                                <rect key="frame" x="0.0" y="260" width="375" height="387"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amN-Vc-UEN">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="484"/>
@@ -269,7 +217,7 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNm-2q-Izw">
-                                <rect key="frame" x="313" y="20" width="46" height="30"/>
+                                <rect key="frame" x="313" y="0.0" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="BxP-HP-dFG"/>
                                     <constraint firstAttribute="height" constant="30" id="Hba-gc-06p"/>
@@ -303,14 +251,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sPW-nJ-tjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="864"/>
+            <point key="canvasLocation" x="714" y="1823"/>
         </scene>
         <!--Pluto Controller-->
         <scene sceneID="05g-Z6-CvH">
             <objects>
                 <viewController id="xut-Oa-dzH" customClass="PlutoController" customModule="Spaceway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ed9-cb-dpf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pluto" translatesAutoresizingMaskIntoConstraints="NO" id="1oS-9M-TP0">
@@ -336,7 +284,7 @@
                                 <state key="normal" title="Turism"/>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3d-8T-MIZ">
-                                <rect key="frame" x="0.0" y="260" width="375" height="407"/>
+                                <rect key="frame" x="0.0" y="260" width="375" height="387"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o79-pi-dQM">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="552"/>
@@ -397,7 +345,7 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJq-4z-e58">
-                                <rect key="frame" x="313" y="20" width="46" height="30"/>
+                                <rect key="frame" x="313" y="0.0" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="LrI-v7-G1w"/>
                                     <constraint firstAttribute="height" constant="30" id="MCS-tF-s2c"/>
@@ -556,7 +504,7 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXx-JT-XIk">
-                                <rect key="frame" x="313" y="20" width="46" height="30"/>
+                                <rect key="frame" x="313" y="0.0" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="VGW-Lt-S50"/>
                                     <constraint firstAttribute="width" constant="46" id="uPn-RA-TKy"/>
