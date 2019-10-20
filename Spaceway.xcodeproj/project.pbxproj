@@ -30,6 +30,7 @@
 		E23AB019235B988400D86D06 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23AB00D235B985C00D86D06 /* Rubik-Medium.ttf */; };
 		E23AB01A235B988400D86D06 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23AB006235B985A00D86D06 /* Rubik-MediumItalic.ttf */; };
 		E23AB01B235B988400D86D06 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23AB009235B985B00D86D06 /* Rubik-Regular.ttf */; };
+		E2B0EEC0235C77B3006290EF /* Page0BController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0EEBF235C77B3006290EF /* Page0BController.swift */; };
 		E2D55A21235C43B300155AEA /* Page0Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A20235C43B300155AEA /* Page0Controller.swift */; };
 		E2D55A23235C43C200155AEA /* Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D55A22235C43C200155AEA /* Pages.storyboard */; };
 		E2D55A25235C499D00155AEA /* Page1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A24235C499D00155AEA /* Page1Controller.swift */; };
@@ -71,6 +72,7 @@
 		E23AB00E235B985C00D86D06 /* Jellee-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jellee-Roman.ttf"; sourceTree = "<group>"; };
 		E23AB00F235B985C00D86D06 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		E23AB010235B985D00D86D06 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E2B0EEBF235C77B3006290EF /* Page0BController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page0BController.swift; sourceTree = "<group>"; };
 		E2D55A20235C43B300155AEA /* Page0Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page0Controller.swift; sourceTree = "<group>"; };
 		E2D55A22235C43C200155AEA /* Pages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pages.storyboard; sourceTree = "<group>"; };
 		E2D55A24235C499D00155AEA /* Page1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1Controller.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				E2D55A20235C43B300155AEA /* Page0Controller.swift */,
+				E2B0EEBF235C77B3006290EF /* Page0BController.swift */,
 				E2D55A24235C499D00155AEA /* Page1Controller.swift */,
 				E2D55A26235C49BF00155AEA /* Page2Controller.swift */,
 				E2D55A28235C4A1000155AEA /* Page3Controller.swift */,
@@ -298,6 +301,7 @@
 				E2D55A25235C499D00155AEA /* Page1Controller.swift in Sources */,
 				E23AAFF4235B557D00D86D06 /* GlobalVariables.swift in Sources */,
 				E2D55A3B235C51B200155AEA /* ServiceController.swift in Sources */,
+				E2B0EEC0235C77B3006290EF /* Page0BController.swift in Sources */,
 				E23AB002235B8CFE00D86D06 /* SpaceController.swift in Sources */,
 				E23AB004235B975F00D86D06 /* Contents.swift in Sources */,
 				E2D55A27235C49BF00155AEA /* Page2Controller.swift in Sources */,

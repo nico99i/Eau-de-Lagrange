@@ -21,7 +21,18 @@ class PianetaXController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func openPage(storyboardName: String, controllerName: String) {
+        let pageStoryboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: controllerName)
+        //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        //        pageController.modalTransitionStyle = modalStyle
+        self.present(pageController, animated: true, completion: nil)
+    }
+    
+    @IBAction func close(_ sender: Any) {
+        openPage(storyboardName: "Transneptunian", controllerName: "RocceController")
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -12,7 +12,7 @@ class RocceController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        PAGE_ISOPEN = true
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +21,18 @@ class RocceController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func openPage(storyboardName: String, controllerName: String) {
+        let pageStoryboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
+        let pageController = pageStoryboard.instantiateViewController(withIdentifier: controllerName)
+        //        let modalStyle: UIModalTransitionStyle = UIModalTransitionStyle.CoverVertical
+        //        pageController.modalTransitionStyle = modalStyle
+        self.present(pageController, animated: true, completion: nil)
+    }
+    
+    @IBAction func close(_ sender: Any) {
+        openPage(storyboardName: "Main", controllerName: "SpaceController")
+    }
+    
     /*
     // MARK: - Navigation
 
